@@ -1,0 +1,33 @@
+{
+  "name": "ra",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "Experiments with Helia and IPFS",
+  "author": "Robin Berjon <robin@berjon.com>",
+  "scripts": {},
+  "bin": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/darobin/ra.git"
+  },
+  "eslintConfig": {
+    "env": {
+      "browser": true,
+      "mocha": true,
+      "es2021": true
+    },
+    "extends": "eslint:recommended",
+    "overrides": [],
+    "parserOptions": {
+      "ecmaVersion": "latest",
+      "sourceType": "module"
+    },
+    "rules": {}
+  },
+  "workspaces": ["projects/*"],
+  "devDependencies": {
+    "eslint": "^8.26.0",
+    "nx": "18.2.4",
+    "@nx/eslint": "18.2.4"
+  }
+}
