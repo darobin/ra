@@ -24,10 +24,7 @@
     },
     "rules": {}
   },
-  "workspaces": ["projects/*"],
   "devDependencies": {
-    "eslint": "^8.26.0",
-    "nx": "18.2.4",
-    "@nx/eslint": "18.2.4"
+    "eslint": "^8.26.0"
   }
 }
